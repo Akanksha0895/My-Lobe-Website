@@ -1,0 +1,112 @@
+
+nav{
+    display: flex;
+    align-items:center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    backdrop-filter: blur(50px);
+    padding: 10px;
+}
+ul{
+    display:flex;
+    list-style: none;
+    gap: 3rem;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    height:48px;
+    width:129px;
+    border-radius: 1000px;
+    color: white;
+    background-color: #04DDB2;
+    border: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.2s ease-in-out;
+    font-size: 15px;
+}
+.nav{
+    position:fixed;
+    top:0;
+    width:100%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 150px;
+}
+h1{
+    margin:0;
+    font-size: 60px;
+    line-height: 1.05;
+    text-align: center;
+}
+p{
+    width: 600px;
+    text-align: center;
+    font-size: 23px;
+    line-height: 1.45;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    color:#333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    font-family: LabGrotesque, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #4f4c4c;
+    padding: 20px 100px;
+}
+ol{
+    list-style: none;
+    font-weight: 200;
+    transition: all 0.2s ease-in;
+}
+.lic{
+    font-weight: bold;
+}
+.social{
+    display: flex;
+    margin-top: 0;
+    padding: 0;
+}
+.serif{
+    font-family: Verdana;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.green{
+    color:#04DDB2;
+}
+.image{
+    transition: all 0.2s ease-in-out;
+}
+
+.image:hover{
+   cursor: pointer;
+   transform: scale(1.05);
+}
+button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.footerp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.5;
+}
+.footers{
+    margin: 20px;
+}
+.lisocial:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
